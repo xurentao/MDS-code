@@ -75,7 +75,7 @@ All modifications in DS and RDS do not affect performances of both algorithms. T
 
 ## 4. Test Matrices
 
-Test matrices 1--3 are provided as test matrix N.dat and match the numbering in our manuscript (in preparation). Test matrix 4 is also provided for reference. It was used in Bai and Demmel's paper to demonstrate the superiority of the direct swapping algorithm over the iterative algorithm.
+Test matrices 1--3 are provided as test matrix N.dat and match the numbering in our manuscript ([2610.30795](https://arxiv.org/abs/2610.30795)). Test matrix 4 is also provided for reference. It was used in Bai and Demmel's paper to demonstrate the superiority of the direct swapping algorithm over the iterative algorithm.
 
 ## 5. Compiling and Running
 
