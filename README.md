@@ -1,6 +1,6 @@
-# Modified Direct Swapping 
+# Modified Direct Swapping
 
-This repository contains Fortran 77 and MATLAB implementations for the reodering problem of 2-by-2 blocks in the real Schur form.
+This repository contains Fortran 77 and MATLAB implementations in [1] for the swapping problem of 2-by-2 blocks in the real Schur form. 
 
 - **DS:** A direct swapping algorithm for the reordering problem in the real Schur form. See *On swapping diagonal blocks in real Schur form*, Z. Bai and J. Demmel., 1993. The reference implementation was obtained from https://www.netlib.org/lapack/.
 - **MDS:** A modifed direct swapping algorithm replacing Householder QR with pivoted Givens QR. 
@@ -75,7 +75,7 @@ All modifications in DS and RDS do not affect performances of both algorithms. T
 
 ## 4. Test Matrices
 
-Test matrices 1--3 are provided as test matrix N.dat and match the numbering in our manuscript ([2610.30795](https://arxiv.org/abs/2610.30795)). Test matrix 4 is also provided for reference. It was used in Bai and Demmel's paper to demonstrate the superiority of the direct swapping algorithm over the iterative algorithm.
+Test matrices 1--3 are provided as test matrix N.dat and match the numbering in [1]. Test matrix 4 is also provided for reference. It was used in Bai and Demmel's paper to demonstrate the superiority of the direct swapping algorithm over the iterative algorithm.
 
 ## 5. Compiling and Running
 
@@ -136,6 +136,9 @@ DeepSeek was used to generate the initial draft of `gecp.m` and improve the outp
 
 The MDS implementations (`dlaexc_g.f` and `mds.m`) are released under the [MIT License](LICENSE).
 
-## 8. Contact
+## 9. Contact
 
 For any questions, please contact Rentao Xu, rtxu24@m.fudan.edu.cn.
+
+## 10. Reference
+[1] Meiyue Shao and Rentao Xu. ``A Modified Direct Eigenvalue Swapping Algorithm with Guaranteed Stability.'' arXiv: [2610.30795](https://arxiv.org/abs/2610.30795).
