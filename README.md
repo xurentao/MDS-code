@@ -25,17 +25,17 @@ This repository contains Fortran 77 and MATLAB implementations in [1] for the sw
 │       ├── test matrix 3.dat
 │       └── test matrix 4.dat
 │
-├── MATLAB/                             # MATLAB implementations
-│   ├── mds/                            # Our algorithm
-│   │   ├── gecp.m                      # GECP
-│   │   └── mds.m                       # Main function
-│   │
-│   └── rds/                            # Reference algorithm
-│       ├── cosine_sv.m
-│       ├── refine_swap_sevp.m          
-│       └── swap22_sevp.m               # Main function
-│
-└── Supplementary Experiments           # Additional numerical results 
+└── MATLAB/                             # MATLAB implementations
+    ├── mds/                            # Our algorithm
+    │   ├── gecp.m                      # GECP
+    │   ├── mds.m                       # Main function
+    │   └── fig_mds.m                   # Reproduce Figures 1 and 2 
+    │
+    └── rds/                            # Reference algorithm
+        ├── cosine_sv.m
+        ├── refine_swap_sevp.m          
+        ├── swap22_sevp.m               # Main function 
+        └── fig_rds.m                   # Reproduce Figures 1 and 2
 ```
 
 ## 2. Requirements
